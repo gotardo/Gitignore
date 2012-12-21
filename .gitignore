@@ -1,3 +1,4 @@
+
 # Standard Git Ignore File
 
 # General igonre
@@ -11,7 +12,16 @@ config.php
 .sass-cache
 config.rb
 
-# For WordPress 
+# For Yii Config Files
+
+assets
+protected/config/main.php
+
+# For NetBeans Project folder
+
+nbproject
+
+# For WordPress
 
 wp-config.php
 wp-content/uploads/
@@ -26,3 +36,8 @@ wp-content/cache/
 wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
+/nbproject/private/
+
+
+
+
