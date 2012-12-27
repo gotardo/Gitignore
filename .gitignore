@@ -4,6 +4,7 @@
 # General igonre
 
 .htaccess
+.htpasswd.txt
 robots.txt
 config.php
 
