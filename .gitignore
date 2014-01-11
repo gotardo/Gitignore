@@ -1,9 +1,9 @@
-
 # Standard Git Ignore File
 
 # General igonre
 
 .htaccess
+.noop
 .htpasswd.txt
 robots.txt
 config.php
