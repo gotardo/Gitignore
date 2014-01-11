@@ -19,8 +19,10 @@ assets
 protected/config/main.php
 
 # For NetBeans Project folder
-
 nbproject
+
+# For PHP Storm folder
+.idea
 
 # For WordPress
 
