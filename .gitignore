@@ -1,32 +1,40 @@
 # Standard Git Ignore File
 
+#-------------------------------------------------------------------------------
 # General igonre
-
-.htaccess
+#-------------------------------------------------------------------------------
+.htaccess	# Add an htaccess-sample.txt file to your version control system
 .noop
-.htpasswd.txt
-robots.txt
-config.php
+.htpasswd	
+robots.txt	# Add a robots.txt file to your version control system
+config.php	# Add a config-sample.php file to your version control system
 
+#-------------------------------------------------------------------------------
 # For SaSS/Compass Framework
-
+#-------------------------------------------------------------------------------
 .sass-cache
-config.rb
+config.rb	# Add a config-sample.rb file to your version control system
 
+#-------------------------------------------------------------------------------
 # For Yii Config Files
-
+#-------------------------------------------------------------------------------
 assets
 protected/config/main.php
 
+#-------------------------------------------------------------------------------
 # For NetBeans Project folder
+#-------------------------------------------------------------------------------
 nbproject
 
+#-------------------------------------------------------------------------------
 # For PHP Storm folder
+#-------------------------------------------------------------------------------
 .idea
 
+#-------------------------------------------------------------------------------
 # For WordPress
-
-wp-config.php
+#-------------------------------------------------------------------------------
+wp-config.php	# Add a wp-config-sample.php file to your version control system
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/
