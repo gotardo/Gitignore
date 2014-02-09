@@ -32,6 +32,18 @@ nbproject
 .idea
 
 #-------------------------------------------------------------------------------
+# For laravel framework
+#-------------------------------------------------------------------------------
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.local.php
+.env.php
+.DS_Store
+Thumbs.db
+
+#-------------------------------------------------------------------------------
 # For WordPress
 #-------------------------------------------------------------------------------
 wp-config.php	# Add a wp-config-sample.php file to your version control system
